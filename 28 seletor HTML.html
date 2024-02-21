@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletor HTML</title>
+
+    <!-- JS -->
+    <script>
+
+       function acao(){
+
+        //variavel
+        var texto = document.getElementsByTagName("h1")[0];
+
+        //exibir o conteudo do H1
+        alert(texto.innerHTML);
+       }
+
+    </script>
+</head>
+<body>
+
+    <button onclick="acao()">Selecionar</button>
+
+    <h1>Iago Lima</h1>
+    <h1>Seletores JS</h1>
+    <h1>Curso JavaScript</h1>
+    
+</body>
+</html>

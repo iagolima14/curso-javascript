@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atributos</title>
+
+    <!-- JS -->
+    <script>
+
+       function alterarLink(){
+        //obter o link
+        var link = document.getElementsByTagName("a")[0];
+
+        //alterar o link
+        link.href = "http://www.google.com";
+        
+       }
+
+    </script>
+</head>
+<body>
+
+   <a href="http://www.globo.com">clique aqui</a>
+   <button onclick="alterarLink()">AlterarLink</button>
+    
+</body>
+</html>
