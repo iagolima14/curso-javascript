@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos - JQuery</title>
+
+    <!-- JQUERY -->
+    <script type="text/javascript" src="jquery-3.7.1.min.js" type="script"></script>
+    <!--<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.6.3.min.js"> </script>-->
+
+    <!-- JQUERY -->
+    <script>
+
+        //ao carregar o documento
+        $(document).ready(function(){
+
+            //Evento de cliqu
+            $("button").click(function(){
+
+                //add um texto no H1
+                $("h1").html("Você clicou no botão.")
+
+            });
+
+        });
+
+    </script>
+</head>
+<body>
+    
+   <h1></h1>
+   <button>Clique aqui</button>
+
+</body>
+</html>

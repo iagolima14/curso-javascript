@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exibir e Ocultar - JQuery</title>
+
+    <!-- JQUERY -->
+    <script type="text/javascript" src="jquery-3.7.1.min.js" type="script"></script>
+    <!--<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.6.3.min.js"> </script>-->
+
+    <!-- JQUERY -->
+    <script>
+
+        //ao carregar o documento
+        $(document).ready(function(){
+
+            //Exibir
+            $("#exibir").click(function(){
+                $("img").show();
+            });
+
+            //Ocultar
+            $("#ocultar").click(function(){
+                $("img").hide();
+            });
+
+        });
+
+    </script>
+</head>
+<body>
+    
+   <button id="exibir">Exibir</button>
+   <button id="ocultar">Ocultar</button>
+
+   <br>
+
+   <img src="Holandes Voador.png" alt="">
+
+</body>
+</html>

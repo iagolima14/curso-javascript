@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores - JQuery</title>
+
+    <!-- JQUERY -->
+    <script type="text/javascript" src="jquery-3.7.1.min.js" type="script"></script>
+    <!--<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.6.3.min.js"> </script>-->
+
+    <!-- JQUERY -->
+    <script>
+
+        //ao carregar o documento
+        $(document).ready(function(){
+
+            //Variaveis
+            var campo = $("input").val();
+            var titulo = $("#titulo").html();
+            var subtitulo = $(".subtitulo").html();
+
+            //Exibir
+            window.alert(campo);
+            window.alert(titulo);
+            window.alert(subtitulo);
+
+        });
+
+    </script>
+</head>
+<body>
+    
+    <input type="text" value="Campo Nome">
+    <h1 id="titulo">Título em H1</h1>
+    <h2 class="subtitulo">Título em H2</h2>
+
+</body>
+</html>
